@@ -1,5 +1,5 @@
 ## creates a matrix and its functions to later calculate the inverse
-makeCacheMatrix <- function(x = matrix(c(4, 3, 3, 2), 2, 2)) {
+makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) {
     x <<- y
